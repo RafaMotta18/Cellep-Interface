@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Agenda</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!-- Brand -->
+
+            <img class="logo-cellep" src="https://br.cellep.com/wp-content/themes/cellep/assets/img/logo_branca.svg"
+                alt="Cellep logo">
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegate">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Lista de navegação -->
+            <div class=" navegate collapse navbar-collapse pr-5">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="/" style="color: white">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="agenda.html" style="color: white">Agenda</a>
+                    </li>
+
+                    <!-- Dropdown| Antiga posição -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"
+                            style="color: white">
+                            Entidades
+                        </a>
+                        <div class="dropdown-menu bg-dark">
+                            <a class="dropdown-item" href="https://br.cellep.com/" target="_blank"
+                                style="color: white">Cellep</a>
+                            <a class="dropdown-item" href="https://estacaohack.fb.com/" target="_blank"
+                                style="color: white">Estação Hack</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="area_do_aluno.html" style="color: white">Área do aluno</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <div class="row">
+            <div class="col-md-12 mt-60">
+                <h2 id="h2-agenda">Dezembro</h2>
+
+                <table id="calendar" class="table table-bordered table-striped text-center">
+
+                    <thead>
+                        <th scope="col">Segunda</th>
+                        <th scope="col">Terça</th>
+                        <th scope="col">Quarta</th>
+                        <th scope="col">Quinta</th>
+                        <th scope="col">Sexta</th>
+                        <th scope="col">Sábado</th>
+                        <th scope="col">Domingo</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td class="bg-info">01</td>
+                            <td>02</td>
+                            <td class="bg-info">03</td>
+                            <td>04</td>
+                            <td class="bg-info">05</td>
+                        </tr>
+
+                        <tr>
+                            <td> 06 </td>
+                            <td class="bg-info"> 07 </td>
+                            <td> 08 </td>
+                            <td class="bg-info"> 09 </td>
+                            <td> 10 </td>
+                            <td class="bg-info"> 11 </td>
+                            <td> 12 </td>
+                        </tr>
+
+                        <tr>
+                            <td class="bg-info"> 13 </td>
+                            <td> 14 </td>
+                            <td class="bg-info"> 15 </td>
+                            <td> 16 </td>
+                            <td class="bg-info"> 17 </td>
+                            <td> 18 </td>
+                            <td class="bg-info"> 19 </td>
+                        </tr>
+
+                        <tr>
+                            <td> 20 </td>
+                            <td class="bg-info"> 21 </td>
+                            <td> 22 </td>
+                            <td class="bg-info"> 23 </td>
+                            <td> 24 </td>
+                            <td class="bg-info"> 25 </td>
+                            <td> 26 </td>
+                        </tr>
+
+                        <tr>
+                            <td class="bg-info"> 27 </td>
+                            <td> 28 </td>
+                            <td class="bg-info"> 29 </td>
+                            <td> 30 </td>
+                            <td class="bg-info"> 31 </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+    <footer class="footer bg-dark fixed-bottom">
+        <div class="conteiner text-center pt-2">
+            <span class="text-white font-italic"> Todos os direitos reservados</span>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>

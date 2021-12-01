@@ -1,0 +1,100 @@
+.logo-cellep { 
+    width: 100px;
+}
+
+.div-1 {
+    /* d-flex aling-items-center texte-center text-black bg-image */
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+     height: 25vw;
+    background-image: url(http://br.cellep.com/wp-content/uploads/2020/11/interna_madcode_curso-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link:hover:not(.active) {
+    background-color: #14248A ;
+    border-radius: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: #14248A !important;
+    
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+footer {
+    height: 50px;
+}
+
+#calendar td {
+    height: 15%;
+    width: 15%;
+}
+
+#calendar th {
+    font-size: 1.5vw;
+}
+
+#calendar td.bg-info { 
+    color: white;
+}
+
+#h2-index {
+    text-align: center;
+    font-size: 3rem;
+    color: #F58229;
+}
+
+strong {
+    color: #F58229;
+}
+
+
+#h2-agenda {
+    text-align: center;
+    font-size: 3rem;
+    color: #F58229;
+    margin-bottom: 20px;
+}
+
+#h2-AreaDoAluno {
+    text-align: center;
+    font-size: 3rem;
+    color: #F58229;
+}
+
+.btns {
+    margin: 10px;
+}
+
+#reset {
+    border-radius: 5px;
+     background-color: #14248A ;
+    border-color: rgba(0, 0, 0, 0.171);
+}
+
+#send {
+    border-radius: 5px;
+     background-color: #14248A ;
+    border-color: rgba(0, 0, 0, 0.171);
+}
+
+#reset:hover {
+    background-color: #696B6E;
+    color: white;
+    border-color: rgba(0, 0, 0, 0.171);
+    cursor: pointer;
+}
+
+#send:hover {
+    background-color: #696B6E;
+    color: white;
+    border-color: rgba(0, 0, 0, 0.171);
+    cursor: pointer;
+}
