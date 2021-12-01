@@ -3,7 +3,6 @@
 }
 
 .div-1 {
-    /* d-flex aling-items-center texte-center text-black bg-image */
     align-items: center;
     text-align: center;
     display: flex;
@@ -22,6 +21,36 @@
 .dropdown-item:hover {
     background-color: #14248A !important;
     
+}
+
+.navbar-toggler {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenunavbar-toggler:hover {
+    background-color: blue;
+    }
+.navbar-collapse {
+    position: relative;
+    display: inline-block;
+}
+.navbar-collapse-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.navbar-collapse-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.navbar-collapse:hover .navbar-collapse-child {
+    display: block;
 }
 
 .mt-60 {
